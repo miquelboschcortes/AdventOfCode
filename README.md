@@ -4,9 +4,18 @@ Advent of Code solutions in Swift
 
 ## Structure
 
-- `Sources/Year2025/` - Daily solutions
+- `Sources/Year2024/` - Daily solutions
 - `Sources/Utilities/` - Helper code
-- `Inputs/2025/` - Puzzle inputs
+- `Inputs/2024/` - Puzzle inputs
+- `Docs/2024/` - Daily writeups and notes
+
+## Progress - 2024
+
+| Day | Part 1 | Part 2 | Notes |
+|-----|--------|--------|-------|
+| [01](Docs/2024/Day01.md) | ⭐ | ⭐ | [Puzzle Title] |
+| [09](Docs/2025/Day09.md) | ⭐ | ⭐ | [Puzzle Title] |
+<!-- | [02](Docs/2024/Day02.md) | ⭐ | ⭐ | [Puzzle Title] | -->
 
 ## Usage
 
@@ -27,8 +36,13 @@ Run the helper script:
 ./add_day.sh <day_number> [year]
 ```
 
-Or manually:
-1. Copy `Day01.swift` to `Day##.swift`
-2. Update day number
-3. Create `Inputs/2025/day##.txt`
-4. Add to `main.swift`
+This creates:
+- Solution file: `Sources/Year2024/Day##.swift`
+- Input file: `Inputs/2024/day##.txt`
+- README: `Docs/2024/Day##.md`
+- Updates progress table in this README
+
+Then:
+1. Add `Day##()` to `main.swift`
+2. Paste your puzzle input
+3. Fill in the day's README with your notes
