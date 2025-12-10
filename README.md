@@ -14,6 +14,7 @@ Advent of Code solutions in Swift
 | Day | Part 1 | Part 2 | Notes |
 |-----|--------|--------|-------|
 | [09](Docs/2025/Day09.md) | ⭐ | ⭐ | [Puzzle Title] |
+| [10](Docs/2025/Day10.md) | ⭐ | ⭐ | [Puzzle Title] |
 <!-- | [02](Docs/2024/Day02.md) | ⭐ | ⭐ | [Puzzle Title] | -->
 
 ## Usage

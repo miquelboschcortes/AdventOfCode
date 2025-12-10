@@ -3,7 +3,7 @@ import Foundation
 // Register all days here
 let days: [Day] = [
     Day09(),
-    // Day02(),
+    Day10()
     // Add more days as you solve them
 ]
 
